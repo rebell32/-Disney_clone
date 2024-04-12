@@ -34,6 +34,9 @@ height: 100%;
 `;
 
 const BgImage = styled.div`
+height: 100%;
+background-position: top;
+background-size: cover;
 background-repeat: no-repeat;
 background-image: url("public/images/login-background_disney+.jpg");
 position:absolute;
@@ -41,7 +44,6 @@ top:0;
 right:0;
 left: 0;
 z-index: -1;
-height: 100%;
 `;
 
 export default Login;
